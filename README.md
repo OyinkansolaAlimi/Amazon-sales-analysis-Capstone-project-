@@ -35,20 +35,32 @@ Before analysis, the following transformations were done in Power Query and Exce
 EDA involved asking several business questions from the data set, such as;
 
 #### 🧠 Key Business Questions Answered
-1. What is the average discount percentage by product category?
-2. How many products are listed under each category?
-3. What is the total number of reviews per category?
-4. Which products have the highest average ratings?
+1. What is the average discount percentage by product category? **48%**
+2. How many products are listed under each category? **1348**
+3. What is the total number of reviews per category? **26,765,385** 
+4. Which products have the highest average ratings? **Computer and accessories, home and  kitchen, electronics**
 5. What is the average actual vs discounted price by category?
+ **Avg actual price 5453**
+**Avg Discounted price 3130**
 6. Which products have the highest number of reviews?
-7. How many products have a discount of 50% or more?
-8. What is the distribution of product ratings?
-9. What is the potential revenue (actual_price × rating_count) by category?
-10. How many unique products fall into each price bucket?
+![Highest REviews](HIGHESTREVIEWS.png)
+
+7. How many products have a discount of 50% or more? 749 ![50% discounted products](50%DISCOUNT.png)
+8. What is the distribution of product ratings? 1462
+9. What is the potential revenue (actual_price × rating_count) by category? **121,324,729,646.58**  
+10. How many unique products fall into each price bucket? 1462
 11. How does discount level relate to rating?
-12. How many products have fewer than 1,000 reviews?
-13. Which categories offer the highest discounts?
+   ![Line Chart](LINEBAR.png)
+12. How many products have fewer than 1,000 reviews? **325**
+13. Which categories offer the highest discounts? **Computer and accessories 94% electronics 91%, home and kitchen 90%**
 14. What are the top 5 products by combined rating and reviews?
+![Top 5 Products](TOP5INERMSOFRATINGXREVIEW.png)
+
+ - Amazonbasics flexible premium hdmi cable
+ - Amazonbasics high speed hdmi cable support Ethernet black
+ - Amazonbasics high speed hdmi cable 2-pack black
+ - Boat basshead earwired earphones with mic taffy pink
+ - Boat basshead earwired earphones with mic furious red
 
 #### 📌 Key Metrics and Insights
 | Metric | Insight |
@@ -66,6 +78,8 @@ EDA involved asking several business questions from the data set, such as;
   -  Pie chart showing product distribution by price bucket rrange
   -  Column chart showing Average discount by category
   -  Line Chart for identifying Products rating distribution
+    
+
 
  🎛️ **Slicers**:
   - Category
@@ -73,9 +87,28 @@ EDA involved asking several business questions from the data set, such as;
 
 ### Dashboard
 
-! [Dashboard Screenshot](DASHBOARD.png)
+![Excel Dashboard](DASHBOARD.png)
 
+## ✅ Recommendations
 
-    ins8ghts
-    recommendationa
+Based on the analysis conducted, here are key recommendations to guide strategic decisions:
 
+1. **Focus on High-Performing Categories**  
+   Categories like **Electronics** and **Computers & Accessories** generate the most potential revenue and should receive prioritized marketing and inventory investment.
+
+2. **Optimize Discount Strategies**  
+   Products with discounts above **50%** are common in certain categories. Instead of broad discounts, apply **targeted discounting** to underperforming products or to clear inventory while preserving margins.
+
+3. **Encourage More Customer Reviews**  
+   Many products have fewer than **1,000 reviews**, which may limit visibility and trust. Implement **post-purchase review prompts** or incentives to increase engagement.
+
+4. **Upsell Premium Products**  
+   Products priced above ₹500, although fewer in number, contribute significantly to revenue. Consider upselling and bundling strategies to maximize value per customer.
+
+6. **Refine Product Listing Based on Rating Performance**  
+   Low-rated products (<3.0) may damage brand credibility. Either **improve product quality** or **consider delisting** poorly performing items.
+
+7. **Use Price Buckets for Targeted Campaigns**  
+   Segment users based on price preferences (e.g., budget: `<₹200`, mid-range: `₹200–₹500`, premium: `>₹500`) and align advertising and product recommendations accordingly.
+
+  
