@@ -73,6 +73,7 @@ EDA involved asking several business questions from the data set, such as;
 
 ### Dashboard
 
+! [Dashboard Screenshot](DASHBOARD.png)
 
 
     ins8ghts
