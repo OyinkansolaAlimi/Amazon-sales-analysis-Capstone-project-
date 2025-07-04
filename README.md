@@ -49,9 +49,32 @@ EDA involved asking several business questions from the data set, such as;
 12. How many products have fewer than 1,000 reviews?
 13. Which categories offer the highest discounts?
 14. What are the top 5 products by combined rating and reviews?
-    
-    visualizations
-    dashboard
+
+#### 📌 Key Metrics and Insights
+| Metric | Insight |
+|--------|---------|
+| **Top-performing products** | Had rating above 4.5 and over 10,000 reviews |
+| **High discounts** | Mostly found in Electronics |
+| **Low-engagement zone** | Products with <1,000 reviews and low ratings |
+| **Revenue concentration** | Driven by high-priced items with high review counts |
+| **Price Buckets** | ₹200–₹500 products were most common but contributed less to revenue than high-end items but revenue was skewed towards the >₹500 segment, emphasizing that premium products drive more revenue per unit |
+| **Discount segments** | Over 25% of the products offered discounts of 50% or more, possibly to stay competitive or to push slow-moving inventory | 
+
+---
+ #### 🔵 Visual Dashboard Components
+  - Bar charts comparing Actual price vs Discount Price
+  -  Pie chart showing product distribution by price bucket rrange
+  -  Column chart showing Average discount by category
+  -  Line Chart for identifying Products rating distribution
+
+ 🎛️ **Slicers**:
+  - Category
+  - Price Bucket
+
+### Dashboard
+
+
+
     ins8ghts
     recommendationa
 
