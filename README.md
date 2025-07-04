@@ -1,5 +1,5 @@
 # 📊 Amazon-sales-analysis-Capstone-project
-This is a perquisite for certification after three months of learning data analysis with the incubator hub
+This is a prerequisite for certification after three months of learning data analysis with the incubator hub
 
 ## 📌 Project title 
 📊 **Amazon sales data analyis**
@@ -17,19 +17,41 @@ The dataset contains information scraped from Amazon product pages, including:
 **Total Records: 	1,465 rows**       
 **Total Fields: 16 columns** 
 
-## Data Preparation
+## Data Preparation Cleaning and Transformation
 Before analysis, the following transformations were done in Power Query and Excel:
- - Extracted the main category from multi-level category strings
- - Created a Conditional Coumn; price bucket
- - Created Potential Revenue Column
- - Cleaned blank fields (e.g., profit, rating_count)
- - Formatted data types 
-
+ - Extracting the main category from multi-level category strings
+ - Creating a Conditional Column; price bucket and Customn column; Potential Revenue Column
+ - Removing duplicate entries and addressing missing vakues through Excel's data validation and filtering tools
+ - Standardizing data formats and converting currency values to consistent unit
+   
 ## 🛠 Tools & Techniques Used
 - 📌 **Excel Features:**
   - Pivot Tables (with Distinct Count)
   - Power Query Editor (for transformation)
   - Slicers for interactivity
   - Conditional formatting
------
+  
+## Exploratory Data Analysis EDA
+EDA involved asking several business questions from the data set, such as;
+
+#### 🧠 Key Business Questions Answered
+1. What is the average discount percentage by product category?
+2. How many products are listed under each category?
+3. What is the total number of reviews per category?
+4. Which products have the highest average ratings?
+5. What is the average actual vs discounted price by category?
+6. Which products have the highest number of reviews?
+7. How many products have a discount of 50% or more?
+8. What is the distribution of product ratings?
+9. What is the potential revenue (actual_price × rating_count) by category?
+10. How many unique products fall into each price bucket?
+11. How does discount level relate to rating?
+12. How many products have fewer than 1,000 reviews?
+13. Which categories offer the highest discounts?
+14. What are the top 5 products by combined rating and reviews?
+    
+    visualizations
+    dashboard
+    ins8ghts
+    recommendationa
 
