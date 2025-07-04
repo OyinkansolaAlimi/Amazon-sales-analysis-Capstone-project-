@@ -9,7 +9,7 @@ This is a prerequisite for certification after three months of learning data ana
 This project focuses on analyzing product data from Amazon's marketplace to uncover patterns in pricing, discounts, ratings, patterns, customer engagement, and category insights. Using Excel's Pivot Tables, Power Query, and custom formulas, I transformed and visualized the data to extract insights that can guide strategic decisions in product improvement, marketing strategies, and customer engagement. 
 
 ## 📁 Dataset Description
-The dataset contains information scraped from Amazon product pages, including: 
+The dataset contains information scraped from Amazon product pages, ![Unclean data](UncleanData.png)
 - Product details: name, category, price, discount, and ratings 
  - Customer engagement: user reviews, titles, and content 
  - Each row represents a unique product, with aggregated reviewer data stored as comma-separated values
@@ -23,6 +23,8 @@ Before analysis, the following transformations were done in Power Query and Exce
  - Creating a Conditional Column; price bucket and Customn column; Potential Revenue Column
  - Removing duplicate entries and addressing missing vakues through Excel's data validation and filtering tools
  - Standardizing data formats and converting currency values to consistent unit
+
+![Clean Data](CLEANEDDATA.png)
    
 ## 🛠 Tools & Techniques Used
 - 📌 **Excel Features:**
@@ -45,7 +47,7 @@ EDA involved asking several business questions from the data set, such as;
 6. Which products have the highest number of reviews?
 ![Highest REviews](HIGHESTREVIEWS.png)
 
-7. How many products have a discount of 50% or more? 749 ![50% discounted products](50%DISCOUNT.png)
+7. How many products have a discount of 50% or more? **749** ![50% discounted products](50%DISCOUNT.png)
 8. What is the distribution of product ratings? 1462
 9. What is the potential revenue (actual_price × rating_count) by category? **121,324,729,646.58**  
 10. How many unique products fall into each price bucket? 1462
@@ -89,7 +91,7 @@ EDA involved asking several business questions from the data set, such as;
 
 ![Excel Dashboard](DASHBOARD.png)
 
-## ✅ Recommendations
+#### ✅ Recommendations
 
 Based on the analysis conducted, here are key recommendations to guide strategic decisions:
 
@@ -111,4 +113,5 @@ Based on the analysis conducted, here are key recommendations to guide strategic
 7. **Use Price Buckets for Targeted Campaigns**  
    Segment users based on price preferences (e.g., budget: `<₹200`, mid-range: `₹200–₹500`, premium: `>₹500`) and align advertising and product recommendations accordingly.
 
-  
+#### 📢 Conclusion
+ Through this project, I demonstrated how Excel, combined with Pivot Tables, Power Query, and visualization can be a powerful tool for retail and e-commerce analysis. The ability to clean, transform, and derive insights from raw data is essential for driving data-informed decisions in any product-based business 
